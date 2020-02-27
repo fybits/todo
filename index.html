@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ToDo</title>
+</head>
+<body>
+    <main>
+        <div class="list-container" id="in-progress">
+            <div class="list-header">
+                <h1>In progress</h1>
+                <a href="#" class="clear">clear</a>
+            </div>
+            <div class="progress-bar" id="in-progress">
+                <div class="fill"></div>
+            </div>
+            <ul>
+                <!-- <li class="list-item">
+                    <input class="checkbox" type="checkbox">
+                    <input class="item-value" type="text" value="Do dishes">
+                    <a href="#" class="delete">x</a>
+                </li> -->
+            </ul>
+            <a href="#" class="add-item">+</a>
+        </div>
+        <div class="list-container" id="done">
+            <div class="list-header">
+                <h1>Done</h1>
+            </div>
+            <div class="progress-bar" id="done">
+                <div class="fill"></div>
+            </div>
+            <ul>
+            </ul>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
